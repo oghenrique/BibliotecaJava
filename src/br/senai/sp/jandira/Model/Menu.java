@@ -2,7 +2,7 @@ package br.senai.sp.jandira.Model;
 
 import java.util.Scanner;
 
-public class Menu {
+public class  Menu {
     public void Menu() {
 
         Scanner teclado = new Scanner(System.in);
@@ -23,6 +23,7 @@ public class Menu {
             switch (userOption){
 
                 case 1:
+                    register.Decision();
                     break;
 
                 case 2:
