@@ -6,9 +6,6 @@ public class Register {
     private int validaPrint = 0;
     private Scanner teclado = new Scanner(System.in);
 
-    public Register() {
-    }
-
     public Usuario cadastrarLeitor() {
         Usuario usuario = new Usuario();
 

@@ -3,9 +3,6 @@ package br.senai.sp.jandira.Model;
 public class Usuario {
     String nome, email, endereco, telefone;
 
-    public Usuario() {
-    }
-
     public String getNome() {
         return nome;
     }
