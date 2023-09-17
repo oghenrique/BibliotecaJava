@@ -56,7 +56,7 @@ public class Menu {
                     if (devolvido) {
                         System.out.println("Devolução realizada com sucesso!");
                     } else {
-                        System.out.println("Livro não encontrado ou não emprestado.");
+                        System.out.println("Livro não encontrado ou não foi emprestado.");
                     }
                     break;
                 case 5:
