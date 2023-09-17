@@ -51,7 +51,7 @@ public class Catalogo {
                 System.out.println("Autor do livro: " + livro.getAutor());
                 System.out.println("Gênero do livro: " + livro.getGenero());
                 System.out.println("ISBN do livro: " + livro.getIsbn());
-                System.out.println("Disponível para Empréstimo");
+                System.out.println("Status: Disponível para Empréstimo");
                 System.out.println("-----------------------------------------");
             }
         }

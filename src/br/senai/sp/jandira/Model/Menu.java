@@ -8,9 +8,9 @@ public class Menu {
         Register register = new Register();
         Catalogo catalogo = new Catalogo();
         Emprestimo emprestimo = new Emprestimo();
-        boolean sair = false;
+        boolean sair = true;
 
-        while (!sair) {
+        while (sair) {
             System.out.println("---------- Bem Vindo ----------");
             System.out.println("\n==> Menu:\n");
             System.out.println("0 - Sair");
