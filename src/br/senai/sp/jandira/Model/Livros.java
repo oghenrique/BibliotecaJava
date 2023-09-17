@@ -2,7 +2,7 @@ package br.senai.sp.jandira.Model;
 
 public class Livros {
     String titulo, autor, genero, isbn;
-    boolean emprestado;
+    private boolean emprestado;
 
     public Livros(String titulo, String autor, String genero, String isbn) {
         this.titulo = titulo;

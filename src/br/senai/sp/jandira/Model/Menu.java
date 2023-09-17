@@ -20,6 +20,7 @@ public class Menu {
             System.out.println("4 - Devolução");
             System.out.println("5 - Catálogo de Livros");
             System.out.println("6 - Livros Emprestados");
+            System.out.println("7 - Lista de Leitores");
             System.out.print("\nOpção: ");
 
             int userOption = teclado.nextInt();
@@ -64,6 +65,9 @@ public class Menu {
                     break;
                 case 6:
                     catalogo.listarLivrosEmprestados();
+                    break;
+                case 7:
+                    register.listarLeitoresCadastrados();
                     break;
                 default:
                     System.out.println("Opção inválida! Tente novamente.");
