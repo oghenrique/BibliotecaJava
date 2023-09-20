@@ -29,7 +29,7 @@ public class Menu {
             switch (userOption) {
                 case 0:
                     System.out.println("Volte sempre! =D");
-                    sair = true;
+                    sair = false;
                     break;
                 case 1:
                     Livros livroCadastrado = register.cadastrarLivro();
